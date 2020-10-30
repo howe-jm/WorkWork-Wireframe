@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>WorkWork Main Page</title>
+    <title>WorkWork Jobs Page</title>
     <link
       href="style.css"
       rel="stylesheet"
@@ -34,9 +34,10 @@
           <main>
             <div class="main-view">
               <!-- Job Container-->
-              <div class="job-item-container">
-                <div class="job-main">
+              <div class="card-item-container">
+                <div class="card-main">
                   <h3>Job Title Goes Here</h3>
+                  <p><a href="">Link to Job</a></p>
                   <p>
                     Summary of job goes here - Vice
                     stumptown blog messenger bag fanny pack
@@ -54,7 +55,7 @@
                   </p>
                 </div>
                 <h4>Contact Information (collapsable)</h4>
-                <div class="job-contacts">
+                <div class="card-contacts">
                   <div class="con-unit">
                     <p>Name: John Doe</p>
                     <p>Title: Hiring Manager</p>
@@ -80,7 +81,7 @@
                     <p><textarea></textarea></p>
                   </div>
                 </div>
-                <div class="job-events">
+                <div class="card-events">
                   <h3>Job Events</h3>
                   <label for="add-event">Add Event:</label>
                   <form name="add-event">
@@ -106,16 +107,18 @@
                     </ul>
                   </div>
                 </div>
-                <div class="job-notes">
+                <div class="card-notes">
                   <h3>General Notes</h3>
                   <textarea></textarea>
+                  <button>Edit</button>
                 </div>
               </div>
               <!-- End Job Container-->
               <!-- Job Container-->
-              <div class="job-item-container">
-                <div class="job-main">
+              <div class="card-item-container">
+                <div class="card-main">
                   <h3>Job Title Goes Here</h3>
+                  <p><a href="">Link to Job</a></p>
                   <p>
                     Summary of job goes here - Vice
                     stumptown blog messenger bag fanny pack
@@ -133,7 +136,7 @@
                   </p>
                 </div>
                 <h4>Contact Information (collapsable)</h4>
-                <div class="job-contacts">
+                <div class="card-contacts">
                   <div class="con-unit">
                     <p>Name: John Doe</p>
                     <p>Title: Hiring Manager</p>
@@ -159,7 +162,7 @@
                     <p><textarea></textarea></p>
                   </div>
                 </div>
-                <div class="job-events">
+                <div class="card-events">
                   <h3>Job Events</h3>
                   <label for="add-event">Add Event:</label>
                   <form name="add-event">
@@ -185,16 +188,18 @@
                     </ul>
                   </div>
                 </div>
-                <div class="job-notes">
+                <div class="card-notes">
                   <h3>General Notes</h3>
                   <textarea></textarea>
+                  <button>Edit</button>
                 </div>
               </div>
               <!-- End Job Container-->
               <!-- Job Container-->
-              <div class="job-item-container">
-                <div class="job-main">
+              <div class="card-item-container">
+                <div class="card-main">
                   <h3>Job Title Goes Here</h3>
+                  <p><a href="">Link to Job</a></p>
                   <p>
                     Summary of job goes here - Vice
                     stumptown blog messenger bag fanny pack
@@ -212,7 +217,7 @@
                   </p>
                 </div>
                 <h4>Contact Information (collapsable)</h4>
-                <div class="job-contacts">
+                <div class="card-contacts">
                   <div class="con-unit">
                     <p>Name: John Doe</p>
                     <p>Title: Hiring Manager</p>
@@ -238,7 +243,7 @@
                     <p><textarea></textarea></p>
                   </div>
                 </div>
-                <div class="job-events">
+                <div class="card-events">
                   <h3>Job Events</h3>
                   <label for="add-event">Add Event:</label>
                   <form name="add-event">
@@ -264,35 +269,45 @@
                     </ul>
                   </div>
                 </div>
-                <div class="job-notes">
+                <div class="card-notes">
                   <h3>General Notes</h3>
                   <textarea></textarea>
+                  <button>Edit</button>
                 </div>
               </div>
               <!-- End Job Container-->
               <!-- Job Container-->
-              <div class="job-item-container">
-                <div class="job-main">
+              <div class="card-item-container">
+                <div class="card-main">
                   <h3>Add New Job</h3>
-                  <form class="job-name-title-form">
+                  <form class="card-name-title-form">
                     <p>
-                      <label for="add-job-form"
+                      <label for="add-card-form"
                         ><p>Company:</p></label
                       >
                       <input
                         type="text"
-                        name="add-job-form"
-                        class="add-job-form"
+                        name="add-card-form"
+                        class="add-card-form"
                       />
                     </p>
                     <p>
-                      <label for="add-job-form"
+                      <label for="add-card-form"
                         ><p>Title:</p>
                       </label>
                       <input
                         type="text"
-                        name="add-job-form"
-                        class="add-job-form"
+                        name="add-card-form"
+                        class="add-card-form"
+                      />
+                    </p>
+                    <label for="add-card-form"
+                        ><p>Job URL:</p></label
+                      >
+                      <input
+                        type="text"
+                        name="add-card-form"
+                        class="add-card-form"
                       />
                     </p>
                     <textarea>
@@ -301,7 +316,7 @@ Job summary and requirements go here.</textarea
                   </form>
                 </div>
                 <h4>Add Contact Information</h4>
-                <div class="job-contacts">
+                <div class="card-contacts">
                   <div class="con-add-form">
                     <form>
                       <p>Name: <input type="text" /></p>
@@ -313,7 +328,7 @@ Job summary and requirements go here.</textarea
                     </form>
                   </div>
                 </div>
-                <div class="job-notes">
+                <div class="card-notes">
                   <h3>General Notes</h3>
                   <textarea></textarea>
                   <button>Submit</button>
